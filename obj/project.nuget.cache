@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "SdcTif7+PerpJDpDB6rFZUpSrY/f8dSGfRWSG9iYxTKZqVLrfQnkZqrLdvHL+VMkO+Xn6XmG6qCmKPptX974Yg==",
+  "dgSpecHash": "uP+nv+HjlxMKBLj/3AASbS5W/reV1tYh1NETw/09f2bvE7Hj3dbWIqtvj5NMM4RYIjJSbmvePL6dHG5qIopgNA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Asventi\\Documents\\Projets\\BepPlugins\\EzGameDev\\EzGameDev.csproj",
   "expectedPackageFiles": [
@@ -15,6 +15,8 @@
     "C:\\Users\\Asventi\\.nuget\\packages\\monomod.runtimedetour\\22.3.23.4\\monomod.runtimedetour.22.3.23.4.nupkg.sha512",
     "C:\\Users\\Asventi\\.nuget\\packages\\monomod.utils\\22.5.1.1\\monomod.utils.22.5.1.1.nupkg.sha512",
     "C:\\Users\\Asventi\\.nuget\\packages\\semanticversioning\\2.0.2\\semanticversioning.2.0.2.nupkg.sha512",
+    "C:\\Users\\Asventi\\.nuget\\packages\\unity3d.unityengine\\2018.3.5.1\\unity3d.unityengine.2018.3.5.1.nupkg.sha512",
+    "C:\\Users\\Asventi\\.nuget\\packages\\unity3d.unityengine.ui\\2018.3.5.1\\unity3d.unityengine.ui.2018.3.5.1.nupkg.sha512",
     "C:\\Users\\Asventi\\.nuget\\packages\\unityengine\\5.6.1\\unityengine.5.6.1.nupkg.sha512",
     "C:\\Users\\Asventi\\.nuget\\packages\\unityengine.modules\\2019.4.21\\unityengine.modules.2019.4.21.nupkg.sha512"
   ],

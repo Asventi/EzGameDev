@@ -139,6 +139,27 @@
           "lib/net45/_._": {}
         }
       },
+      "Unity3D.UnityEngine/2018.3.5.1": {
+        "type": "package",
+        "compile": {
+          "lib/UnityEngine.dll": {}
+        },
+        "runtime": {
+          "lib/UnityEngine.dll": {}
+        }
+      },
+      "Unity3D.UnityEngine.UI/2018.3.5.1": {
+        "type": "package",
+        "dependencies": {
+          "Unity3D.UnityEngine": "[2018.3.5.1]"
+        },
+        "compile": {
+          "lib/UnityEngine.UI.dll": {}
+        },
+        "runtime": {
+          "lib/UnityEngine.UI.dll": {}
+        }
+      },
       "UnityEngine/5.6.1": {
         "type": "package",
         "compile": {
@@ -713,6 +734,32 @@
         "semanticversioning.nuspec"
       ]
     },
+    "Unity3D.UnityEngine/2018.3.5.1": {
+      "sha512": "63ZCYwGdoBCmsJCUI6dodSY+1TrU/7lTDmfF+492Z6nn8my30E3sb5HXLe7qm7MLvBIcKz9TCy114yu5VGycKA==",
+      "type": "package",
+      "path": "unity3d.unityengine/2018.3.5.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/UnityEngine.dll",
+        "lib/UnityEngine.xml",
+        "unity3d.unityengine.2018.3.5.1.nupkg.sha512",
+        "unity3d.unityengine.nuspec"
+      ]
+    },
+    "Unity3D.UnityEngine.UI/2018.3.5.1": {
+      "sha512": "8trOQSsm9mFyICzc6IDxLitAF3M/SOn39wHitHcKa4gXSfJhK5Ri51d40rrqb5UF1I6w2nIDXyWMUP/DZX7YFw==",
+      "type": "package",
+      "path": "unity3d.unityengine.ui/2018.3.5.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/UnityEngine.UI.dll",
+        "lib/UnityEngine.UI.xml",
+        "unity3d.unityengine.ui.2018.3.5.1.nupkg.sha512",
+        "unity3d.unityengine.ui.nuspec"
+      ]
+    },
     "UnityEngine/5.6.1": {
       "sha512": "uAhM+pBtZH7CvGCBQyT9CaksT9M4fzTCIMetYjOEocuFiQGF38uGgS8q5xUd1HddaeXwDG9VrMARHGz5IXhQLw==",
       "type": "package",
@@ -922,6 +969,7 @@
       "BepInEx.PluginInfoProps >= 2.*",
       "BepInEx.Unity.Mono >= 6.0.0-be.*",
       "Microsoft.NETFramework.ReferenceAssemblies >= 1.0.2",
+      "Unity3D.UnityEngine.UI >= 2018.3.5.1",
       "UnityEngine.Modules >= 2019.4.21"
     ]
   },
@@ -983,6 +1031,10 @@
             "suppressParent": "All",
             "target": "Package",
             "version": "[1.0.2, )"
+          },
+          "Unity3D.UnityEngine.UI": {
+            "target": "Package",
+            "version": "[2018.3.5.1, )"
           },
           "UnityEngine.Modules": {
             "include": "Compile",

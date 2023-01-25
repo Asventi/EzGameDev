@@ -60,6 +60,10 @@
               "target": "Package",
               "version": "[1.0.2, )"
             },
+            "Unity3D.UnityEngine.UI": {
+              "target": "Package",
+              "version": "[2018.3.5.1, )"
+            },
             "UnityEngine.Modules": {
               "include": "Compile",
               "target": "Package",
